@@ -17,8 +17,8 @@ public function up()
         $table->time('end_time')->default('15:00:00');
         $table->time('check_out_deadline')->default('21:00:00');
         $table->integer('late_limit')->default(60);
-        $table->json('holidays')->default(json_encode([]));  // Menggunakan json dan default nilai kosong
-        $table->json('holiday_days')->default(json_encode(['Sunday']));  // Menggunakan json dan default hari Minggu
+        $table->json('holidays');  // Menggunakan json dan default nilai kosong
+        $table->json('holiday_days');  // Menggunakan json dan default hari Minggu
         $table->timestamps();
     });
 }

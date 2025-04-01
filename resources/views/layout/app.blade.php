@@ -13,14 +13,14 @@
         />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
-    <link rel="stylesheet" href="{{ asset('build/assets/app-DwFqlTgz.css') }}">
-    <script src="{{ asset('build/assets/app-CqflisoM.js') }}"></script>
+    <link rel="stylesheet" href="/build/assets/app-DwFqlTgz.css">
+    <script src="/build/assets/app-CqflisoM.js"></script>
     
     <!-- DataTables CSS -->
-    <link rel="stylesheet" href="{{ asset('assetFrontend/jquery.dataTables.min.css') }}">
-    <script src="{{ asset('assetFrontend/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('assetFrontend/jquery.dataTables.min.js') }}"></script>
-    <script defer src="{{ asset('assetFrontend/cdn.min.js') }}"></script>
+    <link rel="stylesheet" href="assetFrontend/jquery.dataTables.min.css">
+    <script src="assetFrontend/jquery-3.6.0.min.js"></script>
+    <script src="assetFrontend/jquery.dataTables.min.js"></script>
+    <script defer src="assetFrontend/cdn.min.js"></script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
