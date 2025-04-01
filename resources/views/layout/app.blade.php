@@ -11,9 +11,9 @@
             sizes="16x16"
             href="/assets/theme/images/logo1.png"
         />
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
     
-    
+    <link rel="stylesheet" href="/build/assets/app-DwFqlTgz.css">
+    <script src="/build/assets/app-CqflisoM.js"></script>
     
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="assetFrontend/jquery.dataTables.min.css">
