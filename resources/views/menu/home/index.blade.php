@@ -210,7 +210,7 @@
     updateWorldTime();
 
     function updateButtonStatus() {
-    fetch("{{ route('attendance.status') }}")
+    fetch("/attendance/status")
         .then(response => response.json())
         .then(data => {
             let btnCheckIn = document.getElementById("btnCheckIn");
