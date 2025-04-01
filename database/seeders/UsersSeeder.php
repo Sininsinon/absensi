@@ -12,14 +12,15 @@ class UsersSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'tesss',
-                'email' => 'tessss',
+                'name' => 'player number one',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('user'),
-                'phone' => '081234567890',
-                'institution' => 'Universitas Semarang',
+                'phone' => '4715',
+                'institution' => 'admin',
                 'division_id' => 1,
+                'category_id' => 1,
                 'profile_picture' => 'default.png',
-                'role' => 'intern',
+                'role' => 'admin',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
